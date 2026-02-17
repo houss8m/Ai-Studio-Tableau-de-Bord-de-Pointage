@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Attendance Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: 'hsl(210, 40%, 50%)',
+                '50': 'hsl(210, 40%, 95%)',
+                '100': 'hsl(210, 40%, 90%)',
+                '200': 'hsl(210, 40%, 80%)',
+                '300': 'hsl(210, 40%, 70%)',
+                '400': 'hsl(210, 40%, 60%)',
+                '500': 'hsl(210, 40%, 50%)',
+                '600': 'hsl(210, 40%, 40%)',
+                '700': 'hsl(210, 40%, 30%)',
+                '800': 'hsl(210, 40%, 20%)',
+                '900': 'hsl(210, 40%, 10%)',
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "recharts": "https://esm.sh/recharts@2.12.7?external=react,react-dom",
+    "dexie": "https://esm.sh/dexie@3.2.7",
+    "dexie-react-hooks": "https://esm.sh/dexie-react-hooks@1.1.7?external=react,dexie",
+    "zustand": "https://esm.sh/zustand@4.5.2?external=react",
+    "zod": "https://esm.sh/zod@3.23.8",
+    "date-fns": "https://esm.sh/date-fns@2.30.0",
+    "sonner": "https://esm.sh/sonner@1.4.41?external=react,react-dom",
+    "@tanstack/react-query": "https://esm.sh/@tanstack/react-query@5.35.1?external=react,react-dom",
+    "react-hook-form": "https://esm.sh/react-hook-form@7.52.0?external=react,react-dom",
+    "@hookform/resolvers/zod": "https://esm.sh/@hookform/resolvers@3.6.0/zod?external=react-hook-form,zod",
+    "@hookform/resolvers/": "https://esm.sh/@hookform/resolvers@3.6.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

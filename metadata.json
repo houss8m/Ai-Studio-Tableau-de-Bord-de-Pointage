@@ -1,0 +1,5 @@
+{
+  "name": "Employee Attendance Dashboard",
+  "description": "An advanced web application for managing and analyzing employee attendance data. It features file uploads (TXT, HTML), automatic shift detection, calculation of lateness and early departures, anomaly detection, and provides an interactive dashboard with KPIs, charts, and a filterable data table.",
+  "requestFramePermissions": []
+}
